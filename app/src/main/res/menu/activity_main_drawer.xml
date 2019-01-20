@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_contact"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Add Contact" />
+        <item
+            android:id="@+id/my_contacts"
+            android:icon="@android:drawable/sym_contact_card"
+            android:title="My contacts" />
+        <item
+            android:id="@+id/where_am_i"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Where am I?" />
+        <item
+            android:id="@+id/search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search on the web" />
+    </group>
+
+</menu>
